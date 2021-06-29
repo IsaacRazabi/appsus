@@ -1,0 +1,21 @@
+.mail-list {
+    flex-basis: 70%;
+    margin-right: 25px;
+}
+.mail-list a{
+    text-decoration: none;
+    list-style : none;
+   cursor: pointer;
+}
+ .mail-list ul{
+    text-decoration: none;
+    list-style : none;
+    padding: 0;
+    margin: 5px;
+ 
+}
+
+.mail-list li{
+    border-bottom: 0.5px solid rgb(95, 87, 87);
+    justify-content: space-evenly;
+}

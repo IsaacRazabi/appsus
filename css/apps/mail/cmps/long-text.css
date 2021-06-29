@@ -1,0 +1,13 @@
+    
+    /* .fullShow{
+        background-color: rgb(160, 160, 160);
+    } */
+
+    .long-text{
+        display: flex;
+        flex-direction: column;  
+    }
+    .long-header {
+        display: flex;
+    justify-content: space-between;
+    }

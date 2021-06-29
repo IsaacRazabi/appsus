@@ -1,0 +1,69 @@
+/* 
+      .popup {
+          position: absolute;
+        margin: 70px auto;
+        padding: 20px;
+        background: rgba(136, 104, 104, 0.884);
+        border-radius: 5px;
+        width: 70%;
+        height: 40vh;
+        position: relative;
+        transition: all 5s ease-in-out;
+      } */
+
+      .popup{
+        position: absolute;
+        top: 130px;
+        bottom: 100px;
+        left: 100px;
+        right: 10px;
+      }
+      
+/*    
+      .popup .close {
+        position: absolute;
+        top: 20;
+        right:20;
+        left: 20;
+        bottom: 20;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+      } */
+      .popup .close:hover {
+        color: #06D85F;
+      }
+
+      
+.email-body{
+height: 130px;
+}
+
+.popup input {
+    width: 90%;
+}
+
+.add-mail img{
+  width: 100%;
+}
+.compose{
+  /* border-radius: 15%;
+  width: 200px; */
+  font-family: monospace;
+    padding: 10px;
+    color:black;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.compose:hover {
+  background: #06D85F;
+}
+.compose::after{
+  background-image: url('../img/istockphoto-1066860116-1024x1024.jpg');
+}

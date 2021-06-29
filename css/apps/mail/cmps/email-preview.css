@@ -1,0 +1,16 @@
+.read{
+background-color: rgb(160, 160, 160);
+}
+.new{
+    background-color: rgb(160, 160, 160);
+}
+
+.mail{
+    justify-content: space-between;
+    font: 20px black solid;
+margin-bottom: 10px;
+    transition: 1000ms;
+    font-family: monospace;
+    direction: ltr;
+}
+

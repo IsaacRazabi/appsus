@@ -1,0 +1,41 @@
+.drafts:hover {
+    background-color: rgb(251, 49, 49);
+    opacity: 0.7;
+}
+
+.inbox:hover{
+    background-color: rgb(251, 49, 49);
+    opacity: 0.7;
+};
+.starred:hover {
+    background-color: rgb(251, 49, 49);
+    opacity: 0.7;
+}
+.sent:hover {
+    background-color: rgb(251, 49, 49);
+    opacity: 0.7;
+}
+
+.mail-categories ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.categories{
+flex-basis: 30%;
+font: 20px black solid;
+transition: 1000ms;
+font-family: monospace;
+
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.categories ul {
+    text-decoration: none;
+        list-style : none;
+}
+

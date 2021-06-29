@@ -1,0 +1,138 @@
+
+body{
+margin: 0;
+/* background-image: url('../img/bookshop-background-design_1212-306.jpg'); */
+
+
+@font-face {
+    font-family: 'latobold';
+    src: url("../fonts/lato/Lato-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal; }
+    
+}
+.book-list{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(140px,1fr));
+    
+    
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+img{
+ width: 100%;  
+}
+
+.book-preview-container{
+    border: solid 3px black;
+}
+.book-preview{
+    /* background-color:grey; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.searchField{
+    display: flex;
+    justify-content: center;
+    gap:3px
+}
+
+.home-page img {
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+}
+.app-header a {
+    border-left: 1px solid #1e1e1e;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    line-height: 130px;
+    height: 130px;
+    width: 8.4375rem;
+    text-align: center;
+    border-right: 1px solid #1e1e1e;
+}
+
+.app-header .active-link {
+    color: beige;
+}
+
+.logo {
+    box-sizing: border-box;
+    font-family: eurofbold, serif;
+    font-size: 2.5rem;
+    flex: 1;
+    padding: 0 20px;
+}
+
+.searchGoogle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+    gap: 5px;
+}
+.app-header{
+    /* text-align: center;
+    margin-top: 30px;
+    font-family: monospace;
+    font-size: 25px; */
+    background: url(../img/header-bg.gif);
+    height: 130px;
+    color: #fff;
+    font-family: latobold, sans-serif;
+    /* max-width: 980px; */
+    margin: 0 auto;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    /* background-image: url('../img/bookshop-pexels.jpg'); */
+}
+
+
+.app-header span {
+    color: violet;
+}
+
+.links{
+    color: bisque;
+}
+
+
+.app-footer{
+    position: fixed;
+    bottom: 0;
+    color: cadetblue;
+}
+
+/* .book-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+/* .app-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+} */
+
+.details img{
+    width: 50%;
+}
+
+.for-sale{
+    background-image: url('../img/download.jpg');
+}

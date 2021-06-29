@@ -1,0 +1,31 @@
+
+/* body{
+    margin: 0;
+    
+    @font-face {
+        font-family: 'latobold';
+        src: url("../fonts/lato/Lato-Bold.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal; }
+        
+    }
+
+.email-header{
+    background: url(../img/header-bg.gif);
+    height: 130px;
+    color: #fff;
+    font-family: latobold, sans-serif;
+    /* max-width: 980px; */
+    /* margin: 0 auto;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; */
+/* }  */
+
+/* .email-header{
+    margin-top: 10px;
+} */
+.selectLang{
+    max-width: max-content;
+}
