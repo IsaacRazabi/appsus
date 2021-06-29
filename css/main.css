@@ -67,10 +67,10 @@
      font-family: 'Sniglet', cursive;
  }
 
- .logo img{
+ /* .logo img{
      width: 200px;
- }
- .app-header{
+ } */
+ /* .app-header{
      background-color: rgb(183, 213, 224);
      height: 15vh;
      margin: 0;
@@ -78,7 +78,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
+ } */
  .home-page{
     background-image: linear-gradient(rgb(183, 213, 224), rgb(0, 255, 200));
     height: 73vh;
